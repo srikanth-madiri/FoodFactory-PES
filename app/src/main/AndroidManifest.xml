@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.webatu.bardenwells.foodfactory" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/demo_1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/demo_1"
+        android:supportsRtl="true"
+        android:theme="@style/DefaultTheme" >
+
+        <activity android:name=".Splashscreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".why_spanish"
+            android:label="Week 1"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+
+        </activity>
+
+        <activity
+            android:name=".Week1_mon"
+            android:label="Monday"
+            android:parentActivityName=".why_spanish">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".why_spanish"/>
+        </activity>
+
+        <activity
+            android:name=".Week1_tue"
+            android:label="Tuesday"
+            android:parentActivityName=".why_spanish">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".why_spanish"/>
+        </activity>
+
+        <activity
+            android:name=".Week1_wed"
+            android:label="Wednesday"
+            android:parentActivityName=".why_spanish">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".why_spanish"/>
+        </activity>
+
+        <activity
+            android:name=".Week1_thu"
+            android:label="Thursday"
+            android:parentActivityName=".why_spanish">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".why_spanish"/>
+        </activity>
+
+        <activity
+            android:name=".Week1_fri"
+            android:label="Friday"
+            android:parentActivityName=".why_spanish">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".why_spanish"/>
+        </activity>
+
+        <activity
+            android:name=".Week1_sat"
+            android:label="Saturday"
+            android:parentActivityName=".why_spanish">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".why_spanish"/>
+        </activity>
+
+        <activity
+            android:name=".Week1_sun"
+            android:label="Sunday"
+            android:parentActivityName=".why_spanish">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".why_spanish"/>
+        </activity>
+
+        <activity
+            android:name=".alphabets"
+            android:label="week2"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".WeeK2_mon"
+            android:label="Monday"
+            android:parentActivityName=".alphabets">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".alphabets"/>
+        </activity>
+
+        <activity
+            android:name=".Week2_tue"
+            android:label="Tuesday"
+            android:parentActivityName=".alphabets">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".alphabets"/>
+        </activity>
+
+        <activity
+            android:name=".Week2_wed"
+            android:label="Wednesday"
+            android:parentActivityName=".alphabets">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".alphabets"/>
+        </activity>
+
+        <activity
+            android:name=".Week2_thu"
+            android:label="Thursday"
+            android:parentActivityName=".alphabets">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".alphabets"/>
+        </activity>
+
+        <activity
+            android:name=".Week2_fri"
+            android:label="Friday"
+            android:parentActivityName=".alphabets">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".alphabets"/>
+        </activity>
+
+        <activity
+            android:name=".Week2_sat"
+            android:label="Saturday"
+            android:parentActivityName=".alphabets">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".alphabets"/>
+        </activity>
+
+        <activity
+            android:name=".Week2_sun"
+            android:label="Sunday"
+            android:parentActivityName=".alphabets">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".alphabets"/>
+        </activity>
+
+
+        <activity
+            android:name=".numbers"
+            android:label="week3"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".Week3_mon"
+            android:label="Monday"
+            android:parentActivityName=".numbers">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".numbers"/>
+        </activity>
+
+        <activity
+            android:name=".Week3_tue"
+            android:label="Tuesday"
+            android:parentActivityName=".numbers">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".numbers"/>
+        </activity>
+
+        <activity
+            android:name=".Week3_wed"
+            android:label="Wednesday"
+            android:parentActivityName=".numbers">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".numbers"/>
+        </activity>
+
+        <activity
+            android:name=".Week3_thu"
+            android:label="Thursday"
+            android:parentActivityName=".numbers">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".numbers"/>
+        </activity>
+
+        <activity
+            android:name=".Week3_fri"
+            android:label="Friday"
+            android:parentActivityName=".numbers">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".numbers"/>
+        </activity>
+
+        <activity
+            android:name=".Week3_sat"
+            android:label="Saturday"
+            android:parentActivityName=".numbers">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".numbers"/>
+        </activity>
+
+        <activity
+            android:name=".Week3_sun"
+            android:label="Sunday"
+            android:parentActivityName=".numbers">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".numbers"/>
+        </activity>
+
+
+
+        <activity
+            android:name=".colors"
+            android:label="week4"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+
+        <activity
+            android:name=".Week4_mon"
+            android:label="Monday"
+            android:parentActivityName=".colors">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".colors"/>
+        </activity>
+
+        <activity
+            android:name=".Week4_tue"
+            android:label="Tuesday"
+            android:parentActivityName=".colors">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".colors"/>
+        </activity>
+
+        <activity
+            android:name=".Week4_wed"
+            android:label="Wednesday"
+            android:parentActivityName=".colors">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".colors"/>
+        </activity>
+
+        <activity
+            android:name=".Week4_thu"
+            android:label="Thursday"
+            android:parentActivityName=".colors">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".colors"/>
+        </activity>
+
+        <activity
+            android:name=".Week4_fri"
+            android:label="Friday"
+            android:parentActivityName=".colors">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".colors"/>
+        </activity>
+
+        <activity
+            android:name=".Week4_sat"
+            android:label="Saturday"
+            android:parentActivityName=".colors">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".colors"/>
+        </activity>
+
+        <activity
+            android:name=".Week4_sun"
+            android:label="Sunday"
+            android:parentActivityName=".colors">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".colors"/>
+        </activity>
+
+
+    </application>
+
+</manifest>
